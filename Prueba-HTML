@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GM 360 | Servicios Creativos</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+body{
+background: linear-gradient(120deg,#ff0054,#ffbe0b,#8338ec,#3a86ff);
+background-size:300% 300%;
+animation:fondo 12s infinite alternate;
+}
+
+@keyframes fondo{
+0%{background-position:0%}
+100%{background-position:100%}
+}
+
+.servicio:hover{
+transform:scale(1.08);
+transition:0.3s;
+}
+
+</style>
+
+</head>
+
+<body class="text-white font-sans">
+
+<!-- HEADER -->
+
+<header class="text-center p-10">
+
+<h1 class="text-5xl font-bold">
+GM 360
+</h1>
+
+<p class="text-xl mt-2">
+Soluciones Creativas Integrales
+</p>
+
+</header>
+
+<!-- SERVICIOS -->
+
+<section class="max-w-6xl mx-auto p-6">
+
+<h2 class="text-3xl text-center font-bold mb-10">
+Nuestros Servicios
+</h2>
+
+<div class="grid md:grid-cols-4 gap-8 text-center">
+
+<!-- Impresión digital -->
+
+<div class="servicio bg-white text-black p-6 rounded-xl shadow-xl cursor-pointer">
+
+<div class="text-5xl">🖨️</div>
+
+<h3 class="font-bold mt-4 text-lg">
+Impresión Digital
+</h3>
+
+<p class="text-sm mt-2">
+Alta calidad en impresiones publicitarias y comerciales.
+</p>
+
+</div>
+
+<!-- Offset -->
+
+<div class="servicio bg-white text-black p-6 rounded-xl shadow-xl cursor-pointer">
+
+<div class="text-5xl">📚</div>
+
+<h3 class="font-bold mt-4 text-lg">
+Impresión Offset y Tipografía
+</h3>
+
+<p class="text-sm mt-2">
+Producción profesional de libros, revistas y material corporativo.
+</p>
+
+</div>
+
+<!-- Diseño web -->
+
+<div class="servicio bg-white text-black p-6 rounded-xl shadow-xl cursor-pointer">
+
+<div class="text-5xl">💻</div>
+
+<h3 class="font-bold mt-4 text-lg">
+Diseño Web & Social Media
+</h3>
+
+<p class="text-sm mt-2">
+Creación de páginas web modernas y gestión de redes sociales.
+</p>
+
+</div>
+
+<!-- Drone -->
+
+<div class="servicio bg-white text-black p-6 rounded-xl shadow-xl cursor-pointer">
+
+<div class="text-5xl">🚁</div>
+
+<h3 class="font-bold mt-4 text-lg">
+Tomas Aéreas con Drone
+</h3>
+
+<p class="text-sm mt-2">
+Fotografía y video profesional desde el aire.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SECCIÓN INTERACTIVA -->
+
+<section class="text-center mt-16 p-6">
+
+<h2 class="text-3xl font-bold mb-6">
+Conoce GM 360
+</h2>
+
+<p class="max-w-xl mx-auto mb-6">
+Somos una empresa creativa especializada en impresión, diseño y producción audiovisual.
+Nuestro objetivo es impulsar marcas con soluciones visuales modernas.
+</p>
+
+<button
+onclick="mostrarMensaje()"
+class="bg-yellow-400 text-black font-bold px-6 py-3 rounded-lg hover:bg-yellow-300">
+
+Descubrir más
+
+</button>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section class="text-center mt-16 p-10">
+
+<h2 class="text-3xl font-bold mb-6">
+Contacto
+</h2>
+
+<p>Email: contacto@gm360.com</p>
+<p>Teléfono: +57 300 000 0000</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="text-center mt-16 p-6 text-sm">
+
+GM 360 © 2026 - Todos los derechos reservados
+
+</footer>
+
+<script>
+
+function mostrarMensaje(){
+
+alert("Gracias por visitar GM 360. ¡Estamos listos para impulsar tu marca!")
+
+}
+
+</script>
+
+</body>
+
+</html>
